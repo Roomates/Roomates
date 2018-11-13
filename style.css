@@ -30,9 +30,19 @@ li a {
 a:hover {
 	opacity: 1;
 }
+textarea:focus,
+input:focus {
+	outline: none;
+}
 
 .eachSection {
 	width: 100vw;
+}
+.iconDescription {
+	text-align: center;
+	height: 100%;
+	width: 33vw;
+	padding: 2%;
 }
 ::placeholder {
 	color: #fafaff;
@@ -96,6 +106,14 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
+#remindersSecond {
+	height: 35vh;
+	width: 100vw;
+	background-color: #fafaff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
 
 #overview {
 	height: 50vh;
@@ -141,4 +159,22 @@ a:hover {
 	width: 50%;
 	margin-left: 2%;
 	color: #333;
+}
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+	bottom: -40px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+	background: #a3a3a3;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+}
+
+.blog .carousel-indicators .active {
+	background: #707070;
 }
