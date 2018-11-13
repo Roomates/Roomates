@@ -47,10 +47,9 @@ a:hover {
   height: 6vh;
   font-size: 1.8vh;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   background-color: #333;
-  position: absolute;
+  position: fixed;
 }
 
 #reminders {
@@ -66,7 +65,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fafaff;
+  background-color: rgba(213, 227, 234, 1);
 }
 
 #contactUs {
@@ -102,11 +101,19 @@ a:hover {
 }
 
 #messagingPhoto2 {
-  height: 60vh;
+  height: 50vh;
+ 
+  
 }
 
 #secondMessaging {
   width: 50%;
   margin-left: 2%;
   color: #333;
+}
+
+
+#email{
+  padding: 20px;
+
 }
